@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author Fiuty
  */
-@ConfigurationProperties(prefix = "com.demo1")
 @Configuration
+@ConfigurationProperties(prefix = "com.demo2")
 @Data
-public class StudentProperties {
+public class TeacherProperties {
 
     private String name;
 
