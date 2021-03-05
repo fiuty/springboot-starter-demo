@@ -7,12 +7,12 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author Fiuty
  */
-@Configuration
 @ConfigurationProperties(prefix = "com.demo2")
+@Configuration
 @Data
 public class TeacherProperties {
 
-    private String name;
+    private String name = "defaultTeacher";
 
-    private Integer age;
+    private Integer age = 30;
 }

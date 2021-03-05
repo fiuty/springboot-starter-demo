@@ -1,3 +1,0 @@
-# Auto Confiure
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.fiuty.demo.spring.boot.starter.configure.AutoConfigure

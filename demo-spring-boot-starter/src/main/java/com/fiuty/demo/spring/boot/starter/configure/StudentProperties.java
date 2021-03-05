@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @Data
 public class StudentProperties {
 
-    private String name;
+    private String name = "defaultStudent";
 
-    private Integer age;
+    private Integer age = 10;
 }
