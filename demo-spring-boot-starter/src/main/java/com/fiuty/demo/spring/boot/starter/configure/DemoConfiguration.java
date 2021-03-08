@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @author Fiuty
  */
 @Configuration
+//允许导入配置类,配置类bean被spring容器管理
 @EnableConfigurationProperties({StudentProperties.class, TeacherProperties.class})
 @Slf4j
 public class DemoConfiguration {
